@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^$ aceronet/public/ [L]
+    RewriteRule (.*) aceronet/public/$1 [L]
+</IfModule> 
